@@ -1,0 +1,47 @@
+body{
+   
+    font-family: sans-serif;
+    background: url(rimon.jpg);
+    color: aliceblue;
+    background-size: cover;   
+
+}
+h1,h4{
+    text-align: center;  
+}
+h4{
+    margin: 0;
+    margin-top: -15px;
+    padding-top: -10px;
+}
+.button{
+    height: 320px;
+    width: 420px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 870px;
+    outline: none;
+}
+button{
+    border: none;
+    outline: none;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 8px;
+    height: 30px;
+    width: 80px;
+    background: slateblue;
+    border-radius: 25px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: bold;
+}
+button:hover{
+    
+    background: blue;
+}
+a:hover{
+    color: #000;
+}
