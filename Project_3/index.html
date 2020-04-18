@@ -20,6 +20,10 @@
 			font-style: oblique;
 			font-weight: bold;
 		}
+		.animate-area{
+			height: 180px;
+		}
+		
 	.animation img{
 		height: 100px;
 		width: 100px;
@@ -30,9 +34,9 @@
 	}
 	@keyframes example {
   0%   { left:0px; top:0px;}
-  25%  { left:200px; top:0px;}
-  50%  { left:200px; top:200px;}
-  75%  { left:0px; top:200px;}
+  25%  { left:100px; top:0px;}
+  50%  { left:100px; top:100px;}
+  75%  { left:0px; top:100px;}
   100% { left:0px; top:0px;}
 }
 
@@ -55,7 +59,7 @@
 				</button>
 				<div class="collapse navbar-collapse id=navbarnav">
 					<ul class="navbar-nav ml-auto ">
-						<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
 						<li class="nav-item"><a class="nav-link" href="#">About</a></li>	
 						<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
 						<li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
@@ -67,11 +71,11 @@
 	</header>
 
 	<!--site title section start-->
-	<div class="container">
+	<div class="animate-area container">
 		<marquee behavior="" direction="">Rimon !!! Full Stack Web Developer !! Wordpress Theme Development !</marquee>
 		<div class="row">
 			<div class="col-8">
-				<section class="my section py-5">
+				<section class="my section py-">
 					<div class="container">
 						<div class="row ">				
 							<div class="col-6 offset-3 text-center">
@@ -85,7 +89,7 @@
 				</section>
 			</div>
 			<div class="col-4">
-				<div class="animation py-5 ">
+				<div class="animation ">
 					<img src="dd.jpg" alt="">
 				</div>
 			</div>
